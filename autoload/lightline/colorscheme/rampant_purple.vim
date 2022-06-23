@@ -9,32 +9,32 @@
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
 
-let s:p.normal.left = [[["#A599E9", 140], ["#3B1F5E", 234]], [["#3B1F5E", 234], ["#A599E9", 140]]]
-let s:p.normal.middle = [[["#A599E9", 140], ["#3B1F5E", 234]]]
-let s:p.normal.right = [[["#A599E9", 140], ["#3B1F5E", 234]], [["#1F1F41", 235], ["#A599E9", 140]]]
-let s:p.normal.error = [[["#A599E9", 140], ["#3B1F5E", 234]]]
-let s:p.normal.warning = [[["#A599E9", 140], ["#3B1F5E", 234]]]
+let s:p.normal.left = [[["#D5629B", 140], ["#3B1F5E", 234]], [["#3B1F5E", 234], ["#D5629B", 140]]]
+let s:p.normal.middle = [[["#D5629B", 140], ["#3B1F5E", 234]]]
+let s:p.normal.right = [[["#D5629B", 140], ["#3B1F5E", 234]], [["#1F1F41", 235], ["#D5629B", 140]]]
+let s:p.normal.error = [[["#D5629B", 140], ["#3B1F5E", 234]]]
+let s:p.normal.warning = [[["#D5629B", 140], ["#3B1F5E", 234]]]
 
-let s:p.inactive.left = [[["#3B1F5E", 234], ["#A599E9", 140]], [["#3B1F5E", 234], ["#A599E9", 140]]]
-let s:p.inactive.middle = [[["#3B1F5E", 234], ["#A599E9", 140]]]
-let s:p.inactive.right = [[["#3B1F5E", 234], ["#A599E9", 140]], [["#3B1F5E", 234], ["#A599E9", 140]]]
+let s:p.inactive.left = [[["#3B1F5E", 234], ["#D5629B", 140]], [["#3B1F5E", 234], ["#D5629B", 140]]]
+let s:p.inactive.middle = [[["#3B1F5E", 234], ["#D5629B", 140]]]
+let s:p.inactive.right = [[["#3B1F5E", 234], ["#D5629B", 140]], [["#3B1F5E", 234], ["#D5629B", 140]]]
 
 let s:p.insert.left = [[["#3B1F5E", 234], ["#00FF00", 10]], [["#3B1F5E", 234], ["#d2ffc7", 194]]]
 let s:p.insert.middle = [[["#9EFFFF", 159], ["#3B1F5E", 234]]]
 let s:p.insert.right = [[["#3B1F5E", 234], ["#00FF00", 10]], [["#3B1F5E", 234], ["#d2ffc7", 194]]]
 
 let s:p.replace.left = [[["#3B1F5E", 234], ["#FF628C", 204]], [["#3B1F5E", 234], ["#ff91ae", 211]]]
-let s:p.replace.middle = [[["#A599E9", 140], ["#3B1F5E", 234]]]
+let s:p.replace.middle = [[["#D5629B", 140], ["#3B1F5E", 234]]]
 let s:p.replace.right = [[["#3B1F5E", 234], ["#FF628C", 204]], [["#3B1F5E", 234], ["#ff91ae", 211]]]
 
 let s:p.visual.left = [[["#3B1F5E", 234], ["#D5629B", 177]], [["#3B1F5E", 234], ["#FB94FF", 213]]]
-let s:p.visual.middle = [[["#A599E9", 140], ["#3B1F5E", 234]]]
+let s:p.visual.middle = [[["#D5629B", 140], ["#3B1F5E", 234]]]
 let s:p.visual.right = [[["#3B1F5E", 234], ["#D5629B", 177]], [["#3B1F5E", 234], ["#FB94FF", 213]]]
 
-let s:p.tabline.left = [[["#A599E9", 140], ["#3B1F5E", 234]]]
-let s:p.tabline.tabsel = [[["#3B1F5E", 234], ["#A599E9", 140]]]
-let s:p.tabline.middle = [[["#A599E9", 140], ["#462570", 235]]]
-let s:p.tabline.right = [[["#3B1F5E", 234], ["#A599E9", 140]]]
+let s:p.tabline.left = [[["#D5629B", 140], ["#3B1F5E", 234]]]
+let s:p.tabline.tabsel = [[["#3B1F5E", 234], ["#D5629B", 140]]]
+let s:p.tabline.middle = [[["#D5629B", 140], ["#462570", 235]]]
+let s:p.tabline.right = [[["#3B1F5E", 234], ["#D5629B", 140]]]
 
 let g:lightline#colorscheme#rampant_purple#palette = lightline#colorscheme#flatten(s:p)
 
