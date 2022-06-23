@@ -33,7 +33,7 @@ let s:p.visual.right = [[["#3B1F5E", 234], ["#c991ff", 177]], [["#3B1F5E", 234],
 
 let s:p.tabline.left = [[["#A599E9", 140], ["#3B1F5E", 234]]]
 let s:p.tabline.tabsel = [[["#3B1F5E", 234], ["#A599E9", 140]]]
-let s:p.tabline.middle = [[["#A599E9", 140], ["#28284E", 235]]]
+let s:p.tabline.middle = [[["#A599E9", 140], ["#462570", 235]]]
 let s:p.tabline.right = [[["#3B1F5E", 234], ["#A599E9", 140]]]
 
 let g:lightline#colorscheme#rampant_purple#palette = lightline#colorscheme#flatten(s:p)
