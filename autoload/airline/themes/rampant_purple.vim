@@ -24,7 +24,7 @@ let s:replace2 = [ "#3B1F5E", "#ff91ae", 234, 211 ]
 let s:replace3 = [ "#A599E9", "#3B1F5E", 140, 234 ]
 let g:airline#themes#rampant_purple#palette.replace = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
 
-let s:visual1 = [ "#3B1F5E", "#c991ff", 234, 177 ]
+let s:visual1 = [ "#3B1F5E", "#D5629B", 234, 177 ]
 let s:visual2 = [ "#3B1F5E", "#FB94FF", 234, 213 ]
 let s:visual3 = [ "#A599E9", "#3B1F5E", 140, 234 ]
 let g:airline#themes#rampant_purple#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)

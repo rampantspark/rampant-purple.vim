@@ -27,9 +27,9 @@ let s:p.replace.left = [[["#3B1F5E", 234], ["#FF628C", 204]], [["#3B1F5E", 234],
 let s:p.replace.middle = [[["#A599E9", 140], ["#3B1F5E", 234]]]
 let s:p.replace.right = [[["#3B1F5E", 234], ["#FF628C", 204]], [["#3B1F5E", 234], ["#ff91ae", 211]]]
 
-let s:p.visual.left = [[["#3B1F5E", 234], ["#c991ff", 177]], [["#3B1F5E", 234], ["#FB94FF", 213]]]
+let s:p.visual.left = [[["#3B1F5E", 234], ["#D5629B", 177]], [["#3B1F5E", 234], ["#FB94FF", 213]]]
 let s:p.visual.middle = [[["#A599E9", 140], ["#3B1F5E", 234]]]
-let s:p.visual.right = [[["#3B1F5E", 234], ["#c991ff", 177]], [["#3B1F5E", 234], ["#FB94FF", 213]]]
+let s:p.visual.right = [[["#3B1F5E", 234], ["#D5629B", 177]], [["#3B1F5E", 234], ["#FB94FF", 213]]]
 
 let s:p.tabline.left = [[["#A599E9", 140], ["#3B1F5E", 234]]]
 let s:p.tabline.tabsel = [[["#3B1F5E", 234], ["#A599E9", 140]]]

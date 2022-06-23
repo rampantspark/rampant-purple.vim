@@ -58,7 +58,7 @@ hi Title guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#7d44b2 ctermbg=97 gui=NONE cterm=NONE
 hi WarningMsg guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=NONE ctermfg=NONE guibg=#3B1F5E ctermbg=234 gui=NONE cterm=NONE
-hi Comment guifg=#B362FF ctermfg=135 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Comment guifg=#D5629B ctermfg=135 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#A5FF90 ctermfg=156 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -172,8 +172,8 @@ hi tsFuncArgs guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=Italic cterm
 hi typescriptParameters guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi tsThis guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi tsxAttrib guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi tsxComment guifg=#B362FF ctermfg=135 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi typescriptLineComment guifg=#B362FF ctermfg=135 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi tsxComment guifg=#D5629B ctermfg=135 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi typescriptLineComment guifg=#D5629B ctermfg=135 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi tsxTagName guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tsxTag guifg=#E1EFFF ctermfg=195 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tsxCloseTag guifg=#E1EFFF ctermfg=195 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
